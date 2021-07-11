@@ -1,4 +1,3 @@
-**Status** Developing( Code, Models provided may be not the final version, any updates for better result)
 #### Table of contents
 1. [Introduction](#introduction)
 2. [Details](#details)
