@@ -65,7 +65,7 @@ We also train from scratch with default `n_layer, n_head` of OpenAI GPT2 config.
 #### Our Custom Loss Model <a name="customloss"></a>
 ```Note: We will update details in the future```
 #### Comparison <a name="comparison"></a>
-| Model               | Creativity score (0-10) | Grammar score (0-10) | Semantic score (0-10) |
+| Model               | Creativity score (0-10) | Grammar score (0-10) | Human score (0-10) |
 |---------------------|:-----------------------:|:--------------------:|:---------------------:|
 | Word Level GPT2     |           9.55          |                      |                       |
 | Syllable Level GPT2 |           9.64          |                      |                       |
