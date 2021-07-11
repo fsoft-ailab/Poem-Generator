@@ -6,7 +6,7 @@
 	- [Poem generation](#generate1)
 		- [Word Level GPT2 Model](#wordlevel)
 		- [Syllable Level GPT2 Model](#syllablelevel)
-		- [Our Custom Loss Model](#customloss)
+		- [Semantic Poem GPT2 Model](#customloss)
 		- [Comparison](#comparison)
 	- [Poem generation with desired topic](#generate2)
 3. [QuickStart](#quickstart)
@@ -45,7 +45,7 @@ Custom Loss Model. The generated poem is evaluated base on three aspects: creati
 and grammar of the poem as well as model. About semantic of poems, we invite three
 professional poets to assess semantic of poems in range 0-10 scores.
 
-#### Word Level GPT2 Model <a name="wordlevel"></a>
+#### Word Level GPT2 Model (WL-GPT2) <a name="wordlevel"></a>
 Before feeding text to tokenization process, we use [`underthesea`](https://github.com/undertheseanlp/underthesea)
 frameworks to segment words. We train new [`fastBPE`](https://github.com/glample/fastBPE)
 tokenizer to segment data points with subword units, using a vocabulary of 19795 subword types. <br/>
@@ -54,7 +54,7 @@ We use default `n_layer, n_head` of [OpenAI GPT2](https://huggingface.co/transfo
 config and train from scratch with our `luc-bat` genre poetry dataset
 
 ```Note: You can download weigth of model from ```[`file`](https://github.com/mtb-hust/Poem-Generator/blob/master/ailamtho/config.yml)
-#### Syllable Level GPT2 Model <a name="syllablelevel"></a>
+#### Syllable Level GPT2 Model (SL-GPT2)<a name="syllablelevel"></a>
 There are no word segmentation process in this experiment. Different from 
 above model, we apply `Byte-Level BPE` tokenizer to segment data points with subword units,
 using a vocabulary of 12860 subword types. <br/>
@@ -62,14 +62,14 @@ using a vocabulary of 12860 subword types. <br/>
 We also train from scratch with default `n_layer, n_head` of OpenAI GPT2 config.
 
 ```Note: You can download weigth of model from ```[`file`](https://github.com/mtb-hust/Poem-Generator/blob/master/ailamtho/config.yml)
-#### Our Custom Loss Model <a name="customloss"></a>
+#### Semantic Poem GPT2 Model (SP-GPT2)<a name="customloss"></a>
 ```Note: We will update details in the future```
 #### Comparison <a name="comparison"></a>
 | Model               | Creativity score (0-10) | Grammar score (0-10) | Human score (0-10) |
 |---------------------|:-----------------------:|:--------------------:|:---------------------:|
 | Word Level GPT2     |           9.55          |                      |                       |
 | Syllable Level GPT2 |           9.64          |                      |                       |
-| Custom Loss Model   |           9.7           |                      |                       |
+| Semantic Poem GPT2  |           9.7           |                      |                       |
 
 
 ### Poem generation with desired topic <a name="generate2"></a>
