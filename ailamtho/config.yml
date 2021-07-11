@@ -1,0 +1,26 @@
+word_level_gpt2model:
+    config: 'https://drive.google.com/uc?id=1aQPw-WMGCYGbjWe82uPHUHPFrMwZC3JT&export=download'
+    weight: 'https://drive.google.com/uc?id=17sdoCOsAH8Q4mQszAJl6mfPQixqGEI28&export=download'
+    tokenizer:
+        merges_file: 'https://drive.google.com/uc?id=1XFsf7NtjzSI89fnXKtKOtQxO3vhxDcCG&export=download'
+        vocabs_file: 'https://drive.google.com/uc?id=130-PxsUChZ2pjfeqmL2tSvijzDQWkTeW&export=download'
+
+syllable_level_gpt2model:
+    config: 'https://drive.google.com/uc?id=1q76RfK_7nhNU--pwZfIWKXvwrdwMiFIg&export=download'
+    weight: 'https://drive.google.com/uc?id=1xcNoVFjxS6MJN4MMxSWHy-T3dAIyKDCm&export=download'
+    tokenizer:
+        merges_file: 'https://drive.google.com/uc?id=1kdRsZq70yBV2fa_8INsWcBLv0tIQFMja&export=download'
+        vocabs_file: 'https://drive.google.com/uc?id=1Zxs_7ToGBSleo9A1hcRi2cLmtACaPIuV&export=download'
+
+custom_loss_model:
+    weight: 'https://drive.google.com/uc?id=1NLp9VUnDZhycLAYx0n0XQjlyTaQm1PV-&export=download'
+    tokenizer:
+        merges_file: 'https://drive.google.com/uc?id=1U1SsKwYC-LL4Kov4VQr6aOnci400KNb4&export=download'
+        vocabs_file: 'https://drive.google.com/uc?id=1zleSHjWcrE0yVAFA3TcQWit1UWSkGS7X&export=download'
+
+bow:
+    gia_dinh: 'https://drive.google.com/uc?id=1Sp-G6Q-gRDYOYVUJ-0ZGEFMzUAjQJcic&export=download'
+    tinh_yeu: 'https://drive.google.com/uc?id=1F3LW6zHICUHHG34Qny7xDdyqZLU1u9kF&export=download'
+    dich_benh: 'https://drive.google.com/uc?id=1aAvBLSCmFmTbWIrTmgKA3z6Qh1AotrjR&export=download'
+    que_huong: 'https://drive.google.com/uc?id=1a1ie8SzakU7T8F1xJZR6u9w4_rITjZT5&export=download'
+    le_tet: 'https://drive.google.com/uc?id=1jhk0uQbX7KGH0AxpdqbYL14kgnlZM6h1&export=download'
