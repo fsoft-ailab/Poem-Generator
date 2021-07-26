@@ -97,7 +97,7 @@ We collect poems from many resources as facebook groups, [Vườn Thơ Tkaraoke]
 | `8-chu`   |  34440  |
 | `4-chu`   |   1106  |
 
-You can download our dataset [here]()
+We will publish the dataset in the future.
 ## Evaluation <a name="evaluation"></a>
 
 ### Rule
