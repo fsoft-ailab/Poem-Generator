@@ -150,7 +150,7 @@ Each stanza with n pair of sentences has: (3*n – 1) words to check rhyme and (
 	
 ### Example usage
 ```python 
-from src.utils.check_rule import *
+from ailamtho.utils.check_rule import *
 print(check_rule(input))
 # errors check, marked poem, length, tone and rhyme errors returned
 print(calculate_score(input))
