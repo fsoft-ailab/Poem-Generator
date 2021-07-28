@@ -52,7 +52,7 @@ tokenizer to segment data points with subword units, using a vocabulary of 19795
 We use default `n_layer, n_head` of [OpenAI GPT2](https://huggingface.co/transformers/model_doc/gpt2.html#gpt2config)
 config and train from scratch with our `luc-bat` genre poetry dataset
 
-```Note: You can download weigth of model from ```[`file`](https://github.com/mtb-hust/Poem-Generator/blob/master/ailamtho/config.yml)
+```Note: You can download weigth of model from ```[`file`](https://github.com/fsoft-ailab/Poem-Generator/blob/master/ailamtho/config.yml)
 #### Syllable Level GPT2 Model (GPT2-SL)<a name="syllablelevel"></a>
 There are no word segmentation process in this experiment. Different from 
 above model, we apply `Byte-Level BPE` tokenizer to segment data points with subword units,
@@ -60,7 +60,7 @@ using a vocabulary of 12860 subword types. <br/>
 
 We also train from scratch with default `n_layer, n_head` of OpenAI GPT2 config.
 
-```Note: You can download weigth of model from ```[`file`](https://github.com/mtb-hust/Poem-Generator/blob/master/ailamtho/config.yml)
+```Note: You can download weigth of model from ```[`file`](https://github.com/fsoft-ailab/Poem-Generator/blob/master/ailamtho/config.yml)
 #### Semantic Poem GPT2 Model (SP-GPT2)<a name="customloss"></a>
 ```Note: We will update details in the future```
 #### Comparison <a name="comparison"></a>
