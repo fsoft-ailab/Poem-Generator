@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="361" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="25">
+            <item index="0" class="java.lang.String" itemvalue="importlib_resources" />
+            <item index="1" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="2" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="3" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="4" class="java.lang.String" itemvalue="sklearn" />
+            <item index="5" class="java.lang.String" itemvalue="torch" />
+            <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="torchvision" />
+            <item index="9" class="java.lang.String" itemvalue="onnxruntime" />
+            <item index="10" class="java.lang.String" itemvalue="gdown" />
+            <item index="11" class="java.lang.String" itemvalue="Unidecode" />
+            <item index="12" class="java.lang.String" itemvalue="Pillow" />
+            <item index="13" class="java.lang.String" itemvalue="pydantic" />
+            <item index="14" class="java.lang.String" itemvalue="transformers" />
+            <item index="15" class="java.lang.String" itemvalue="fastapi" />
+            <item index="16" class="java.lang.String" itemvalue="starlette" />
+            <item index="17" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="18" class="java.lang.String" itemvalue="albumentations" />
+            <item index="19" class="java.lang.String" itemvalue="onnx" />
+            <item index="20" class="java.lang.String" itemvalue="vietocr" />
+            <item index="21" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="22" class="java.lang.String" itemvalue="bs4" />
+            <item index="23" class="java.lang.String" itemvalue="importlib-resources" />
+            <item index="24" class="java.lang.String" itemvalue="python-jose" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="ailamtho.generate.generate_topic" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
